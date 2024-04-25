@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+.font-pop {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+.font-pop-bold {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-color-black {
+    color: black !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.font-color-white {
+    color: white !important;
+}
+
+.color-white {
+    background: white !important;
+}
+
+.Button-link {
+    text-decoration: none !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .justify-content{
+    justify-content: space-between !important;
   }
-  to {
-    transform: rotate(360deg);
+  .container-top{
+    margin: 10px !important;
   }
-}
+  .margin{
+    margin: 7px !important;
+  }
+  .margin-top{
+    margin-top: 7px !important;
+  }
+
+  /* Footer.css */
+.footer {
+    background: black !important;
+    color: white !important;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-section {
+    padding: 10px;
+  }
+  
+  .footer h3 {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: white !important;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline !important;
+  }
+
+  /* App.css */
+/* App.css */
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+  }
+  
+  .justify-content {
+    flex: 1 !important;
+  }
+  
+  .footer {
+    background: black !important;
+    color: white !important;
+    padding: 20px !important;
+    text-align: center !important;
+    margin-top: auto !important;
+  }
+  
+  .text-end{
+    text-align: end !important;
+  }
